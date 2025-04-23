@@ -1,0 +1,193 @@
+/* sm devices */
+@media screen and (min-width: 640px) {
+  .sm-75 {
+    width: 75%;
+  }
+
+  /* *********************FOOTER SECTION**************** */
+      .footer-input {
+        display: flex;
+        justify-content: space-between;
+        input {
+            width: 74%;
+            margin: 0;
+        }
+
+        .sub-button {
+            width: 25%;
+            
+        }
+    }
+
+/* md devices */
+@media screen and (min-width: 780px) {
+    .md-90 {
+        width: 90%;
+    }
+
+    /* ****************CHEFS SECTION******************** */
+    .chefs-outer {
+        gap: 1rem;
+    }
+    .chefs-inner{
+        flex-basis: 48%;
+        margin-bottom: 1rem;
+    }
+
+     /* ****************GALLERY SECTION******************** */
+     .gallery-items{
+        column-count: 2;
+        column-gap: 1.5rem;
+     }
+
+    /* ****************Contact SECTION******************** */
+    .contacts {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        .contacts-inner {
+            margin: 0;
+            width: calc(50% - 0.5rem);
+            .contact {
+                height: 100%;
+            }
+        }
+    }
+
+    /* ****************Footer SECTION******************** */
+    .footer-input {
+        display: flex;
+        justify-content: space-between;
+        input {
+            width: 84%;
+            margin: 0;
+        }
+
+        .sub-button {
+            width: 15%;
+            
+        }
+    }
+
+    .footer-parent {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+        .column {
+            width: calc(50% - 1rem);
+        }
+        .column1 {
+            order: -2;
+        }
+        .column2 {
+            width: 100%;
+        }
+        .column3 {
+            order: -1;
+        }
+    }
+
+}
+
+/* lg devices */
+@media screen and (min-width: 1024px) {
+    /* ****************HOME SECTION******************** */
+    .home-parent {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+
+        .hero {
+            width: 40%;
+        }
+        .outer {
+            .home-header {
+                text-align: left;
+                margin-top: 0;
+            }
+            width: 40%;
+        }
+
+        .buttons {
+            a[href="#contact"] {
+                border-top-left-radius: 0px;
+            }
+            justify-content: left;
+        }
+    }
+    
+    
+    /* ****************CHEFS SECTION******************** */
+    .chefs-outer {
+        justify-content: space-between;
+        gap: 0rem;
+    }
+    .chefs-inner{
+        flex-basis: 31%;
+    }
+
+
+         /* ****************GALLERY SECTION******************** */
+     .gallery-items{
+        column-count: 3;
+     }
+
+    /* ****************Contact SECTION******************** */
+    .inputs {
+        .id-input {
+            display: flex;
+            justify-content: space-between;
+            input {
+                width: 49%;
+            }
+        }
+    }
+}
+
+/* xl devices */
+@media screen and (min-width: 1280px) {
+    .xl-85 {
+        width: 85%;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .nav-links {
+        display: block;
+    }
+
+        .footer-parent {
+        .column {
+        }
+        .column1 {
+            width: 23%;
+            order: 0;
+        }
+        .column2 {
+            width: 50%;
+        }
+        .column3 {
+            width: 23%;
+            order: 0;
+        }
+    }
+
+
+          .footer-input {
+        input {
+            width: 79%;
+        }
+
+        .sub-button {
+            width: 20%;
+            
+        }
+    }
+}
+
+/* 2xl devices */
+@media and (min-width: 1536px) {
+}
