@@ -7,7 +7,7 @@
   <h2>A Restaurant Landing site done purely with HTML and CSS</h2>
 </div>
 
-## Live Site: https://glistening-horse-5dcb7c.netlify.app/
+## Live Site: https://delightful-creponne-25ad68.netlify.app/
 
 ## <a name="features">🔋 Add ons</a>
 
